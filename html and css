@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plant-Based Stem Cell Health Products for B2B Sales">
+    <title>Plant-Based Stem Cell Health Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>StemCellHealth</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Revolutionizing Health with Plant-Based Stem Cell Products</h2>
+            <p>Premium, Budget-Friendly Stem Cell Health Solutions for Businesses Globally</p>
+            <a href="#products" class="cta-btn">Explore Our Products</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our mission is to provide high-quality, plant-based stem cell health products that help businesses enhance the well-being of their clients globally.</p>
+            <p>We aim to lead the way in plant-based stem cell technology while promoting sustainability and accessible health solutions worldwide.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Plant-Based Supplement</p>
+                    <a href="#contact" class="cta-btn">Request More Info</a>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Stem Cell Skincare</p>
+                    <a href="#contact" class="cta-btn">Request More Info</a>
+                </div>
+                <div class="product-item">
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>Wellness Capsules</p>
+                    <a href="#contact" class="cta-btn">Request More Info</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>We offer B2B wholesale partnerships with businesses globally, providing customizable plant-based stem cell products at competitive prices.</p>
+            <p>Contact us for expert consultation on how we can help you grow your business with our health products.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <p>&copy; 2025 StemCellHealth. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .cta-btn {
+    padding: 10px 20px;
+    background-color: #5dbb63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .cta-btn:hover {
+    background-color: #4a9a4e;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 1.1em;
+}
+
+/* Products Section */
+.products {
+    background-color: #e8e8e8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item .cta-btn {
+    padding: 10px 20px;
+    background-color: #5dbb63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-item .cta-btn:hover {
+    background-color: #4a9a4e;
+}
+
+/* Services Section */
+.services {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 15px 30px;
+    background-color: #5dbb63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.contact button:hover {
+    background-color: #4a9a4e;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer .footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
